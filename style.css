@@ -1,10 +1,34 @@
 
-#col-1{
-    background-color: #fff4e6;
-    height: 100vh;
+html{
+    font-family: 'DM Mono', monospace;
+    
 }
 
-#col-2{
-    background-color: #336699;
-    height: 100vh;
+.fancy-font{
+    font-family: 'Major Mono Display', monospace;
 }
+
+#site-bg{
+    background-color: #fff4e6;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    background: linear-gradient(0.17turn, #fff4e6 40%, white 40% 41%, #336699 );
+    min-height: 100vh;
+}
+
+#my-picture{
+    max-width: 250px;
+}
+
+#hero{
+    margin: 20vh auto;
+    padding: 2rem;
+    background-color: white;
+    max-width: 600px;
+}
+
+footer{
+    min-height: 200px;
+    background-color: #993333;
+    border-top: 3px solid white;
+}
+
