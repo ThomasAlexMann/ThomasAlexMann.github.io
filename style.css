@@ -15,7 +15,9 @@ p{
 #site-bg{
     background-color: #fff4e6;
     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-    background: linear-gradient(0.17turn, #fff4e6 40%, white 40% 41%, #336699 );
+    background: linear-gradient(0.17turn, #fff7ed 40%, white 40% 41%, #71a6da );
+
+    /* #fff4e6 */
 }
 
 .navbar{
@@ -28,9 +30,10 @@ p{
 
 #hero{
     margin: 15vh auto;
-    padding: 4rem;
+    padding: 2rem;
     background-color: white;
     max-width: 700px;
+    border-radius: 10px;
 }
 
 .logo{
