@@ -1,7 +1,11 @@
 
 html{
-    font-family: 'DM Mono', monospace;
     
+    
+}
+
+p{
+    font-family: 'DM Mono', monospace;
 }
 
 .fancy-font{
@@ -12,7 +16,10 @@ html{
     background-color: #fff4e6;
     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
     background: linear-gradient(0.17turn, #fff4e6 40%, white 40% 41%, #336699 );
-    min-height: 100vh;
+}
+
+.navbar{
+    background-color: #c65353;
 }
 
 #my-picture{
@@ -20,10 +27,15 @@ html{
 }
 
 #hero{
-    margin: 20vh auto;
-    padding: 2rem;
+    margin: 15vh auto;
+    padding: 4rem;
     background-color: white;
-    max-width: 600px;
+    max-width: 700px;
+}
+
+.logo{
+    max-width: 80px;
+    margin: 1rem 2rem;
 }
 
 footer{
