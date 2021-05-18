@@ -2,86 +2,67 @@
 <html lang="en">
 
 <head>
-    <title>Thomas Mann - Junior Web Developer</title>
+    <title>Thomas Mann - Trainee Web Developer</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- styles -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
 
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,300&family=Major+Mono+Display&display=swap"
         rel="stylesheet">
-
 
 </head>
 
 <body>
     <div class="container-fluid">
-
         <div class="row p-0">
 
-            <div id="site-bg" class='py-3'>
-                <nav class="navbar navbar-expand-lg navbar-dark fancy-font">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                                <a class="nav-link " href="./about-me.html">About Me</a>
-                                <a class="nav-link " href="#">Projects</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-
-                <main>
-                    <div id="hero" class="row">
-                        <div class="col-md-6 d-flex justify-content-center align-items-center border-end">
-                            <img id="my-picture" class="img-fluid rounded" src="./images/IMG_0099.JPG"
-                                alt="A picture of me">
-                        </div>
-
-                        <div class="col-md-6">
-                            <h1 class="fancy-font">Hello There...</h2>
-                                <p>
-                                    I’m Tom a trainee web developer living in Halifax. I have been teaching myself
-                                    coding for a few years, I recently started studying computing at the Open university
-                                    but currently I’m having a great time on the JAMstack path with the coders guild.
-                                </p>
-                        </div>
-
-                        <div class="col-12 border-top">
-                            <p class="text-center">Find me here...</p>
-                            <div class="d-flex justify-content-center">
-                                <img id="logo" class="logo" src="./images/logos/LI-In-Bug.png" alt="A picture of me">
-                                <img id="logo" class="logo" src="./images/logos/GitHub-Mark-64px.png"
-                                    alt="A picture of me">
-                            </div>
-                        </div>
+            <main class='py-3'>
+                <div id="intro-container" class="row">
+                    <div class="col-md-6 py-2 d-flex justify-content-center align-items-center">
+                        <img id="my-picture" class="rounded" src="./images/IMG_0099.JPG"
+                            alt="A picture of Thomas Mann looking handsome">
                     </div>
 
-                </main>
-            </div>
+                    <div class="col-md-6 py-2">
+                        <h1 class="fancy-font">Hello There...</h1>
+                        <p>
+                            I’m Tom a trainee web developer living in Halifax. I have been teaching myself
+                            coding for a few years, I recently started studying computing at the Open university
+                            but currently I’m having a great time on the JAM stack path with the
+                            <a href="https://thecodersguild.org.uk/" target="_blank">coders guild</a>
+                            based in Leeds.
+                        </p>
+                    </div>
 
-            <footer>
+                    <div class="col-12">
+                        <p class="text-center">Find me here...</p>
+                        <div class="d-flex justify-content-center flex-wrap">
+                            <a href="https://www.linkedin.com/in/thomas-mann-ba773a211" target="_blank">
+                                <img class="logo" src="./images/logos/LI-In-Bug.png" alt="linked in logo">
+                            </a>
+                            <a href="https://github.com/ThomasAlexMann" target="_blank">
+                                <img class="logo" src="./images/logos/GitHub-Mark-64px.png" alt="github logo">
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- end of #intro-container -->
+            </main>
 
-            </footer>
+            <footer></footer>
 
-            <div class=' py-3'>
-
-            </div>
         </div> <!-- end of .row-->
 
     </div>

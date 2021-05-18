@@ -1,9 +1,4 @@
 
-html{
-    
-    
-}
-
 p{
     font-family: 'DM Mono', monospace;
 }
@@ -12,38 +7,39 @@ p{
     font-family: 'Major Mono Display', monospace;
 }
 
-#site-bg{
-    background-color: #fff4e6;
-    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
-    background: linear-gradient(0.17turn, #fff7ed 40%, white 40% 41%, #71a6da );
-
-    /* #fff4e6 */
+main{
+    background: linear-gradient(0.44turn, #7dabda, white 55%);
 }
 
-.navbar{
-    background-color: #c65353;
-}
-
-#my-picture{
-    max-width: 250px;
-}
-
-#hero{
+#intro-container{
     margin: 15vh auto;
     padding: 2rem;
     background-color: white;
     max-width: 700px;
     border-radius: 10px;
+    border: 1px solid lightgrey;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+@media screen and (max-width: 767px) {
+    #intro-container{
+        margin: 2rem auto;
+        padding: .7rem;
+    }
+}
+
+#my-picture{
+    width: 100%;
+    max-width: 250px;
 }
 
 .logo{
-    max-width: 80px;
-    margin: 1rem 2rem;
+    max-width: 70px;
+    margin: 1rem;
 }
 
 footer{
     min-height: 200px;
-    background-color: #993333;
-    border-top: 3px solid white;
+    background-color: #6c757d;
 }
 
